@@ -263,11 +263,7 @@ altasib_geobase.SITE_ID='<?=SITE_ID?>';
 				<a id="altasib_geobase_btn" class="altasib_geobase_disabled" href="#"><?=GetMessage("ALTASIB_GEOBASE_THIS_IS_MY_".$sMode);?></a>
                 	<div id="altasib_geobase_info"></div>
 				</div>
-<<<<<<< HEAD
                  
-=======
-                
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
                 <?
 				endif;?>
 

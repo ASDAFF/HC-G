@@ -179,7 +179,7 @@ altasib_geobase.sc_onclk=function(cityid,ctryCode,regionCode){
 			altasib_geobase.short_name=altasib_geobase.sc_trim($('#'+list_+id).html());
 			altasib_geobase.full_name=altasib_geobase.sc_trim($('#'+list_+id).attr('title'));
 		}else{
-<<<<<<< HEAD
+
 			cityName=cityid;if(typeof altasib_geobase=='undefined')var altasib_geobase={};
 
 altasib_geobase.letters='';
@@ -361,8 +361,7 @@ altasib_geobase.sc_onclk=function(cityid,ctryCode,regionCode){
 			altasib_geobase.short_name=altasib_geobase.sc_trim($('#'+list_+id).html());
 			altasib_geobase.full_name=altasib_geobase.sc_trim($('#'+list_+id).attr('title'));
 		}else{
-=======
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
+
 			cityName=cityid;
 			altasib_geobase.short_name=$('#'+list_+cityName).html();
 			altasib_geobase.full_name=$('#'+list_+cityName).attr('title');
@@ -992,7 +991,7 @@ altasib_geobase.sc_type={
 	isString:function(item){
 		return item===''?true:(item?(typeof(item)=='string'||item instanceof String):false);
 	}
-<<<<<<< HEAD
+
 }
 			altasib_geobase.short_name=$('#'+list_+cityName).html();
 			altasib_geobase.full_name=$('#'+list_+cityName).attr('title');
@@ -1622,6 +1621,5 @@ altasib_geobase.sc_type={
 	isString:function(item){
 		return item===''?true:(item?(typeof(item)=='string'||item instanceof String):false);
 	}
-=======
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
+
 }

@@ -550,11 +550,7 @@ if($page!="/"&&$page!="/kora/"&&$page!="/planeta-holiday/"&&$page!="/holiday-sup
 		"CATEGORY_9" => "",	// Ограничение области поиска
 	),
 	false
-<<<<<<< HEAD
 );?>  
-=======
-);?>
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
 			<div class="shadow_site"></div>
 		</div>
 <?//ВЫБОР ГОРОДА//?>
@@ -611,12 +607,9 @@ if($page!="/"&&$page!="/kora/"&&$page!="/planeta-holiday/"&&$page!="/holiday-sup
 		<script src="<?=$APPLICATION->GetTemplatePath("js/scrollTo.js")?>"></script>
 		<script src="<?=$APPLICATION->GetTemplatePath("js/slider.js")?>"></script>
         <script src="<?=$APPLICATION->GetTemplatePath("js/cookies.js")?>"></script>
-        <script src="<?=$APPLICATION->GetTemplatePath("js/jquery.cookie.js")?>"></script>
-        <script src="<?=$APPLICATION->GetTemplatePath("js/lodash.js")?>"></script>
         <script src="<?=$APPLICATION->GetTemplatePath("js/scrollbar.js")?>"></script>
         <script src="<?=$APPLICATION->GetTemplatePath("js/art_select.js")?>"></script>
 		<script src="<?=$APPLICATION->GetTemplatePath("js/main.js")?>"></script>
-    <script src="<?=$APPLICATION->GetTemplatePath("js/cookie_load.js")?>"></script>
  	    
         
         

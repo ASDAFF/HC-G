@@ -34,13 +34,8 @@ if (strlen($CONTAINER_ID) <= 0)
     $CONTAINER_ID = "title-search";
 $CONTAINER_ID = CUtil::JSEscape($CONTAINER_ID);
 
-<<<<<<< HEAD
 if ($arParams["SHOW_INPUT"] !== "N"): ?> 
 <div class="popup_container popup_container_search"> 
-=======
-if ($arParams["SHOW_INPUT"] !== "N"): ?>
-<div class="popup_container popup_container_search">
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
 				<div class="close">
 					<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						 viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">
