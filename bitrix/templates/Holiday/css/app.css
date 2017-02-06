@@ -509,6 +509,7 @@ header a.city {
   text-decoration: none;
   position: relative;
   margin-left: 13px;
+  margin-bottom: 6px;
 }
 header a.city svg {
   position: absolute;

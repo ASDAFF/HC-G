@@ -587,7 +587,9 @@ header a.city {
   text-decoration: none;
   position: relative;
   margin-left: 13px;
+  margin-bottom: 6px;
 }
+
 header a.city svg {
   position: absolute;
   left: -21px;
@@ -5041,6 +5043,8 @@ footer .social_buttons .social_list a:hover svg .st1 {
   }
   header .user_block a.city {
     margin-bottom: 20px;
+    ///test style
+    margin-bottom: 6px;
   }
   .slider .bx-viewport {
     min-height: 430px;
@@ -6049,6 +6053,12 @@ footer .social_buttons .social_list a:hover svg .st1 {
   }
   header .user_block a.city {
     margin-bottom: 0;
+    //test style
+    margin-bottom: 6px;
+    
+  }
+  .user_block .city{
+    margin-bottom: 6px;
   }
   .slider li .slide_content .slider_elips {
     -webkit-border-radius: 100%;

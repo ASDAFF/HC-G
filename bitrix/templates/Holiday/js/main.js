@@ -715,7 +715,7 @@
 							google.maps.event.trigger(markers[id], 'click');
 						}) */
 						function showVisibleMarkers() {
-						 
+						 console.log("showVisibleMarkers");
 							var bounds = map.getBounds(),
 								count = 0;
 							$('.stores_list li').removeAttr('style');
@@ -855,7 +855,9 @@
 				}
 
 				$('.desctop_filter .item_filter').on('click', function(e){
+				    
 					e.preventDefault();
+                    console.log("showVisibleMarkers2");
 					var t=$(this);
 					if(!$(this).hasClass('select_field')){
 						
@@ -889,6 +891,7 @@
 					}
 				});
 				function rebuildMapDesctop(){
+				    console.log("showVisibleMarkers3");
 					filter_checked=[];
 					
 					$('.desctop_filter .item_filter').each(function(index, el) {
@@ -1029,6 +1032,7 @@
 				$(doc).on('click','.catalog_bar .show_full', function(e){
 					e.preventDefault();
 					show_catalog_full();
+                    console.log("!!!");
 				})
 				$(doc).on('click','.catalog_bar .show_list', function(e){
 					e.preventDefault();
