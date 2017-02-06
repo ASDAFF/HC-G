@@ -9,11 +9,8 @@ div.search-page-params {
 	margin-top: 6px;
 }
 .search-item-rate {font-size: 11px;}
-<<<<<<< HEAD
+
 input[name="q"]{ 
-=======
-input[name="q"]{
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
         display: inline-block;
 }
 .search-page a{

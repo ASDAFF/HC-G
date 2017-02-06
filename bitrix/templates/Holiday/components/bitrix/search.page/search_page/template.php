@@ -274,21 +274,17 @@ endif;?>
                 <?}?>
 </div>
 <style>
-<<<<<<< HEAD
+
 .loading-gif{ 
-=======
-.loading-gif{
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
+
     display: none;
 }
 .loading-gif img{
     width: 10%;
     position: fixed;
-<<<<<<< HEAD
     margin-left: -5%; 
-=======
+
     margin-left: -5%;
->>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
     left: 50%;
     top: 50%;
     margin-top: -5%;
