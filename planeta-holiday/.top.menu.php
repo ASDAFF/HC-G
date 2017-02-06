@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Акции", 
+		"/planeta-holiday/discount/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"/planeta-holiday/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рецепты", 
+		"/recipes/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Список покупок", 
+		"/buy-list/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дисконтные карты", 
+		"/planeta-holiday/discounts_cards/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/planeta-holiday/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

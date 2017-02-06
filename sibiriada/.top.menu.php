@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Акции", 
+		"/sibiriada/discount/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"/sibiriada/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рецепты", 
+		"/recipes/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Список покупок", 
+		"/buy-list/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дисконтные карты", 
+		"/sibiriada/discounts_cards/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/sibiriada/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

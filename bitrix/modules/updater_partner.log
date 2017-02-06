@@ -1,0 +1,701 @@
+2017-01-26 14:00:14 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-26 14:00:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-26 14:00:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-26 14:00:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-26 14:00:14 -  - TIME GetUpdatesList(request) 0.724 sec
+2017-01-26 14:00:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:38 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:01:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:01:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Caltasib.geobase&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:01:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:01:39 -  - TIME GetUpdatesList(request) 0.614 sec
+2017-01-29 18:01:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:01:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:01:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:01:52 -  - TIME LoadModulesUpdates(request) 0.418 sec
+2017-01-29 18:01:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:52 - S - STEP
+2017-01-29 18:01:52 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:01:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:52 -  - loadFile
+2017-01-29 18:01:54 - U - RETURN
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:01:54 -  - TIME UnGzipArchive 0.049 sec
+2017-01-29 18:01:54 -  - TIME UpdateStepModules 0.046 sec
+2017-01-29 18:01:54 - UPD_SUCCESS - Updated: altasib.geobase
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:01:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.0.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:01:54 -  - TIME LoadModulesUpdates(request) 0.311 sec
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:54 - S - STEP
+2017-01-29 18:01:54 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:54 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:54 -  - loadFile
+2017-01-29 18:01:55 - U - RETURN
+2017-01-29 18:01:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:01:55 -  - TIME UnGzipArchive 0.033 sec
+2017-01-29 18:01:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702115/altasib.geobase/updater1.0.1.php'
+2017-01-29 18:01:55 -  - TIME UpdateStepModules 0.029 sec
+2017-01-29 18:01:55 - UPD_SUCCESS - Updated: altasib.geobase (1.0.1)<br>- Добавлена поддержка определения местоположения по городам и странам мира. - Исправлены шаблоны компонентов для работы с международной базой. - Добавлен поиск по городам и странам мира. - Добавлен интерфейс обновления международной базы с сайта maxmind.com - Исправлена работа избранных городов. - Добавлена поддержка английской локализации. - Исправлены мелкие ошибки.
+2017-01-29 18:01:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:01:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.0.1%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:01:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:01:56 -  - TIME LoadModulesUpdates(request) 0.314 sec
+2017-01-29 18:01:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:56 - S - STEP
+2017-01-29 18:01:56 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:01:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:56 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:56 -  - loadFile
+2017-01-29 18:01:57 - U - RETURN
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:01:57 -  - TIME UnGzipArchive 0.008 sec
+2017-01-29 18:01:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702117/altasib.geobase/updater1.0.2.php'
+2017-01-29 18:01:57 -  - TIME UpdateStepModules 0.011 sec
+2017-01-29 18:01:57 - UPD_SUCCESS - Updated: altasib.geobase (1.0.2)<br>- Добавлено кеширование избранных городов. - Добавлены проверки на существование таблиц. - Удалены метатеги из мобильных шаблонов, фиксировавшие масштабирование. - Незначительные улучшения и изменения.
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:01:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.0.2%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:01:57 -  - TIME LoadModulesUpdates(request) 0.342 sec
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:57 - S - STEP
+2017-01-29 18:01:57 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:01:57 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:01:57 -  - loadFile
+2017-01-29 18:01:59 - U - RETURN
+2017-01-29 18:01:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:01 -  - TIME UnGzipArchive 1.492 sec
+2017-01-29 18:02:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702119/altasib.geobase/updater1.0.3.php'
+2017-01-29 18:02:04 -  - TIME UpdateStepModules 1.976 sec
+2017-01-29 18:02:04 - UPD_SUCCESS - Updated: altasib.geobase (1.0.3)<br>- Добавлена поддержка обработчиков событий (php и js) по изменению (выбору) города. - Изменен файл опций модуля, дополнена информация для разработчика. - Используется один шаблон в компонентах для мобильной и настольной версии. - Исправлен компонент \"Получение местоположения\". - Незначительные улучшения и исправления.
+2017-01-29 18:02:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.0.3%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:04 -  - TIME LoadModulesUpdates(request) 0.388 sec
+2017-01-29 18:02:04 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:04 - S - STEP
+2017-01-29 18:02:04 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:05 -  - loadFile
+2017-01-29 18:02:05 - U - RETURN
+2017-01-29 18:02:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:05 -  - TIME UnGzipArchive 0.003 sec
+2017-01-29 18:02:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702125/altasib.geobase/updater1.1.0.php'
+2017-01-29 18:02:05 -  - TIME UpdateStepModules 0.078 sec
+2017-01-29 18:02:05 - UPD_SUCCESS - Updated: altasib.geobase (1.1.0)<br>- Поддержка технологии \"Композитный сайт\". - Небольшие исправления и улучшения.
+2017-01-29 18:02:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:06 -  - TIME LoadModulesUpdates(request) 0.328 sec
+2017-01-29 18:02:06 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:06 - S - STEP
+2017-01-29 18:02:06 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:06 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:06 -  - loadFile
+2017-01-29 18:02:07 - U - RETURN
+2017-01-29 18:02:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:07 -  - TIME UnGzipArchive 0.032 sec
+2017-01-29 18:02:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702127/altasib.geobase/updater1.1.1.php'
+2017-01-29 18:02:07 -  - TIME UpdateStepModules 0.168 sec
+2017-01-29 18:02:07 - UPD_SUCCESS - Updated: altasib.geobase (1.1.1)<br>- Обновление базы данных КЛАДР. - Небольшие доработки кода.
+2017-01-29 18:02:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.1%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:07 -  - TIME LoadModulesUpdates(request) 0.291 sec
+2017-01-29 18:02:07 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:07 - S - STEP
+2017-01-29 18:02:07 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:08 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:08 -  - loadFile
+2017-01-29 18:02:09 - U - RETURN
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:09 -  - TIME UnGzipArchive 0.024 sec
+2017-01-29 18:02:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702129/altasib.geobase/updater1.1.2.php'
+2017-01-29 18:02:09 -  - TIME UpdateStepModules 0.017 sec
+2017-01-29 18:02:09 - UPD_SUCCESS - Updated: altasib.geobase (1.1.2)<br>- Исправление ошибок переопределения функций. - Небольшие доработки и улучшения кода.
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.2%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:09 -  - TIME LoadModulesUpdates(request) 0.367 sec
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:09 - S - STEP
+2017-01-29 18:02:09 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:09 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:09 -  - loadFile
+2017-01-29 18:02:10 - U - RETURN
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:10 -  - TIME UnGzipArchive 0.002 sec
+2017-01-29 18:02:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702130/altasib.geobase/updater1.1.3.php'
+2017-01-29 18:02:10 -  - TIME UpdateStepModules 0.043 sec
+2017-01-29 18:02:10 - UPD_SUCCESS - Updated: altasib.geobase (1.1.3)<br>- Доработка javascript кода, работающего на странице оформления заказа, улучшение поддержки местоположений. - Доработка файла опций.
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.3%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:10 -  - TIME LoadModulesUpdates(request) 0.354 sec
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:10 - S - STEP
+2017-01-29 18:02:10 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:10 -  - loadFile
+2017-01-29 18:02:10 - U - RETURN
+2017-01-29 18:02:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:10 -  - TIME UnGzipArchive 0.001 sec
+2017-01-29 18:02:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702130/altasib.geobase/updater1.1.4.php'
+2017-01-29 18:02:11 -  - TIME UpdateStepModules 0.016 sec
+2017-01-29 18:02:11 - UPD_SUCCESS - Updated: altasib.geobase (1.1.4)<br>- Замена устаревших функций в javascript коде, работающем на странице оформления заказа.
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.4%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:11 -  - TIME LoadModulesUpdates(request) 0.287 sec
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:11 - S - STEP
+2017-01-29 18:02:11 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:11 -  - loadFile
+2017-01-29 18:02:11 - U - RETURN
+2017-01-29 18:02:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:11 -  - TIME UnGzipArchive 0.001 sec
+2017-01-29 18:02:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702131/altasib.geobase/updater1.1.5.php'
+2017-01-29 18:02:11 -  - TIME UpdateStepModules 0.001 sec
+2017-01-29 18:02:11 - UPD_SUCCESS - Updated: altasib.geobase (1.1.5)<br>- Коррекция javascript кода модуля.
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.5%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:12 -  - TIME LoadModulesUpdates(request) 0.353 sec
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:12 - S - STEP
+2017-01-29 18:02:12 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:12 -  - loadFile
+2017-01-29 18:02:12 - U - RETURN
+2017-01-29 18:02:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:12 -  - TIME UnGzipArchive 0.003 sec
+2017-01-29 18:02:12 -  - TIME UpdateStepModules 0.002 sec
+2017-01-29 18:02:12 - UPD_SUCCESS - Updated: altasib.geobase (1.1.6)<br>- Добавление проверки на объявление класса распаковщика zip. - Небольшие исправления.
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.6%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:13 -  - TIME LoadModulesUpdates(request) 0.302 sec
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:13 - S - STEP
+2017-01-29 18:02:13 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:13 -  - loadFile
+2017-01-29 18:02:13 - U - RETURN
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:13 -  - TIME UnGzipArchive 0.001 sec
+2017-01-29 18:02:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702133/altasib.geobase/updater1.1.7.php'
+2017-01-29 18:02:13 -  - TIME UpdateStepModules 0.024 sec
+2017-01-29 18:02:13 - UPD_SUCCESS - Updated: altasib.geobase (1.1.7)<br>- Исправление шаблонов компонента \"Выбор города\".
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.7%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:14 -  - TIME LoadModulesUpdates(request) 0.367 sec
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:14 - S - STEP
+2017-01-29 18:02:14 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:14 -  - loadFile
+2017-01-29 18:02:14 - U - RETURN
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:14 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702134/altasib.geobase/updater1.1.8.php'
+2017-01-29 18:02:14 -  - TIME UpdateStepModules 0.004 sec
+2017-01-29 18:02:14 - UPD_SUCCESS - Updated: altasib.geobase (1.1.8)<br>- Добавление опции модуля для включения автоматически определенного города в список избранных городов. - Добавление опции модуля для включения/отключения показа городов мира в строке поиска.
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.1.8%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:15 -  - TIME LoadModulesUpdates(request) 0.386 sec
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:15 - S - STEP
+2017-01-29 18:02:15 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:15 -  - loadFile
+2017-01-29 18:02:15 - U - RETURN
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:15 -  - TIME UnGzipArchive 0.01 sec
+2017-01-29 18:02:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702135/altasib.geobase/updater1.2.1.php'
+2017-01-29 18:02:15 -  - TIME UpdateStepModules 0.028 sec
+2017-01-29 18:02:15 - UPD_SUCCESS - Updated: altasib.geobase (1.2.1)<br>- Добавлен функционал пользовательских полей для избранных городов с предустановленными полями: \"Телефон\", \"Ссылка\", \"Доп. информация\". - Добавлен компонент вывода дополнительных полей города. - Добавлен функционал перехода по ссылке, указанной в пользовательском поле города, при выборе этого города (включается в опциях). - Коррекция js кода модуля для страницы оформления заказа. - Незначительные изменения и улучшения.
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.2.1%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:16 -  - TIME LoadModulesUpdates(request) 0.308 sec
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:16 - S - STEP
+2017-01-29 18:02:16 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:16 -  - loadFile
+2017-01-29 18:02:16 - U - RETURN
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:16 -  - TIME UnGzipArchive 0.01 sec
+2017-01-29 18:02:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702136/altasib.geobase/updater1.3.0.php'
+2017-01-29 18:02:16 -  - TIME UpdateStepModules 0.026 sec
+2017-01-29 18:02:16 - UPD_SUCCESS - Updated: altasib.geobase (1.3.0)<br>- Добавлен выбор свойств местоположений для типов плательщиков магазина. - Исправлен js скрипт, работающий на странице оформления заказа, добавлена поддержка старых списочных шаблонов выбора местоположения. - Исправлен функционал модуля по сохранению пользователем города, определенного автоматически. - Сжаты картинки модуля. - Исправлен шаблон компонента altasib:geobase.select.city. - Незначительные изменения и улучшения.
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.3.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:17 -  - TIME LoadModulesUpdates(request) 0.33 sec
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:17 - S - STEP
+2017-01-29 18:02:17 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:17 -  - loadFile
+2017-01-29 18:02:17 - U - RETURN
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:17 -  - TIME UnGzipArchive 0.003 sec
+2017-01-29 18:02:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702137/altasib.geobase/updater1.3.1.php'
+2017-01-29 18:02:17 -  - TIME UpdateStepModules 0.029 sec
+2017-01-29 18:02:17 - UPD_SUCCESS - Updated: altasib.geobase (1.3.1)<br>- Добавлена задержка выполнения скрипта на странице оформления заказа. - Исправлено сохранение уровней доступа к модулю. - Добавлено принудительное подключение скриптов главного модуля Битрикс.
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.3.1%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:18 -  - TIME LoadModulesUpdates(request) 0.346 sec
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:18 - S - STEP
+2017-01-29 18:02:18 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:18 -  - loadFile
+2017-01-29 18:02:18 - U - RETURN
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:18 -  - TIME UnGzipArchive 0.006 sec
+2017-01-29 18:02:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702138/altasib.geobase/updater1.4.0.php'
+2017-01-29 18:02:18 -  - TIME UpdateStepModules 0.023 sec
+2017-01-29 18:02:18 - UPD_SUCCESS - Updated: altasib.geobase (1.4.0)<br>- Добавлена поддержка регионов России в качестве местоположений. - Добавлена опция выбора режима вывода местоположений. - Оптимизация шаблонов компонентов выбора и подтверждения местоположения. - Добавлена поддержка регионов в качестве избранных местоположений. - Небольшие исправления и улучшения.
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.4.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:19 -  - TIME LoadModulesUpdates(request) 0.309 sec
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:19 - S - STEP
+2017-01-29 18:02:19 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:19 -  - loadFile
+2017-01-29 18:02:19 - U - RETURN
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:19 -  - TIME UnGzipArchive 0.007 sec
+2017-01-29 18:02:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702139/altasib.geobase/updater1.5.0.php'
+2017-01-29 18:02:19 -  - TIME UpdateStepModules 0.022 sec
+2017-01-29 18:02:19 - UPD_SUCCESS - Updated: altasib.geobase (1.5.0)<br>- Добавлено событие OnAfterAutoDetectCity по автоматическому определению города после записи в сессию (куки). - Добавлена опция \"Определять автоматически город на хитах\" - запись в сессию и куки даже тогда, когда не используются компоненты модуля. - Добавлена опция \"Осуществлять перенаправление по ссылке, указанной в пользовательском поле города, при заходе на сайт посетителем, подтвердившим этот город\" - выполняется редирект на указанный в избранном городе адрес, переход запоминается на сутки. - Добавлена поддержка работы без объекта BX в файлах Javascript модуля. - Небольшие исправления и улучшения.
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.5.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:20 -  - TIME LoadModulesUpdates(request) 0.319 sec
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:20 - S - STEP
+2017-01-29 18:02:20 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:20 -  - loadFile
+2017-01-29 18:02:20 - U - RETURN
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:20 -  - TIME UnGzipArchive 0.005 sec
+2017-01-29 18:02:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702140/altasib.geobase/updater1.6.0.php'
+2017-01-29 18:02:20 -  - TIME UpdateStepModules 0.035 sec
+2017-01-29 18:02:20 - UPD_SUCCESS - Updated: altasib.geobase (1.6.0)<br>- Добавлена опция \"Код сайта в системе geoip.elib.ru\" для поддержки изменений в запросе к онлайн-сервису GeoIP. - Исправлена инициализация обработчиков событий в шаблонах компонентов модуля (устранен конфликт с композитной технологией). - Исправлены стили в шаблонах компонентов для корректного отображения ширины и высоты элементов.
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.6.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:21 -  - TIME LoadModulesUpdates(request) 0.352 sec
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:21 - S - STEP
+2017-01-29 18:02:21 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:21 -  - loadFile
+2017-01-29 18:02:21 - U - RETURN
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:21 -  - TIME UnGzipArchive 0.008 sec
+2017-01-29 18:02:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702141/altasib.geobase/updater1.7.0.php'
+2017-01-29 18:02:21 -  - TIME UpdateStepModules 0.05 sec
+2017-01-29 18:02:21 - UPD_SUCCESS - Updated: altasib.geobase (1.7.0)<br>- Добавлен функционал перезагрузки текущей страницы по выбору или подтверждению города, если разрешен редирект: опция \"Осуществлять переход по ссылке, указанной в пользовательском поле города, при выборе этого города\". - Добавлена многосайтовость в опции \"Код SID сайта в системе geoip.elib.ru\" модуля. - Разделены опции использования онлайн-сервисов ipgeobase.ru и geoip.elib.ru (geoip.top). - Исправлены js файлы шаблонов компонентов для работы страницы в iframe. - Частично минифицированы js файлы шаблонов, исправлена инициализация обработчиков. - Скорректированы стили css. - Исправлены файлы установщика модуля.
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.7.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:22 -  - TIME LoadModulesUpdates(request) 0.329 sec
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:22 - S - STEP
+2017-01-29 18:02:22 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:22 -  - loadFile
+2017-01-29 18:02:22 - U - RETURN
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:22 -  - TIME UnGzipArchive 0.005 sec
+2017-01-29 18:02:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702142/altasib.geobase/updater1.8.0.php'
+2017-01-29 18:02:22 -  - TIME UpdateStepModules 0.025 sec
+2017-01-29 18:02:22 - UPD_SUCCESS - Updated: altasib.geobase (1.8.0)<br>- Исправлены шаблоны компонента altasib:geobase.select.city для показа автоопределенных городов, имеющихся в списке. - Из названий городов исключено сокращение типа населенного пункта в компоненте выбора города. - Добавлена поддержка протокола https, а также исправлена работа в Safari в js скрипте модуля. - Доработаны функции поиска по местоположениям Битрикс CAltasibGeoBase::GetBXLocations() для других локализаций сайта. - Добавлена подстановка местоположения на уровне региона, если соответствующее населенному пункту местоположение не найдено. - Исправлены ошибки при сохранении региона в качестве местоположения.
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:23 -  - TIME LoadModulesUpdates(request) 0.397 sec
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:23 - S - STEP
+2017-01-29 18:02:23 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:23 -  - loadFile
+2017-01-29 18:02:23 - U - RETURN
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:23 -  - TIME UnGzipArchive 0.003 sec
+2017-01-29 18:02:23 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702143/altasib.geobase/updater1.8.1.php'
+2017-01-29 18:02:23 -  - TIME UpdateStepModules 0.028 sec
+2017-01-29 18:02:23 - UPD_SUCCESS - Updated: altasib.geobase (1.8.1)<br>- Добавлена константа NO_GEOBASE для принудительного запрета на выполнение событий модуля (необходимо для выполнения скриптов по cron). - Изменения в js скрипте для страницы оформления заказа: если поле местоположения непустое и недефолтное, подстановка отменяется. - Добавлено выполнение обработчика на ajax события в js скрипте, работающем на странице оформления заказа. - Небольшие исправления и улучшения.
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.1%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:24 -  - TIME LoadModulesUpdates(request) 0.357 sec
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:24 - S - STEP
+2017-01-29 18:02:24 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:24 -  - loadFile
+2017-01-29 18:02:24 - U - RETURN
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:24 -  - TIME UnGzipArchive 0.003 sec
+2017-01-29 18:02:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702144/altasib.geobase/updater1.8.2.php'
+2017-01-29 18:02:24 -  - TIME UpdateStepModules 0.033 sec
+2017-01-29 18:02:24 - UPD_SUCCESS - Updated: altasib.geobase (1.8.2)<br>- Доработка js скрипта для компонента bitrix:sale.order.ajax: исправлена работа для магазинов с одним типом плательщика, доработан обработчик ajax-событий. - Улучшена детекция ip-адреса хоста клиента. - Доработка функционала модуля, проверяющего наличие файлов на удаленном сервере. - Небольшие исправления и улучшения.
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.2%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:25 -  - TIME LoadModulesUpdates(request) 0.322 sec
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:25 - S - STEP
+2017-01-29 18:02:25 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:25 -  - loadFile
+2017-01-29 18:02:25 - U - RETURN
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:25 -  - TIME UnGzipArchive 0.006 sec
+2017-01-29 18:02:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702145/altasib.geobase/updater1.8.3.php'
+2017-01-29 18:02:25 -  - TIME UpdateStepModules 0.023 sec
+2017-01-29 18:02:25 - UPD_SUCCESS - Updated: altasib.geobase (1.8.3)<br>- Добавлен функционал редиректа на страницу с таким же относительным путем, но другим доменом (опция модуля \"Осуществлять перенаправление с сохранением относительного пути\"). - Добавлена опция \"Показывать только города, крупные поселки и районные центры из населенных пунктов в поле поиска\" для компонента выбора города. - Скорректирован вывод шаблона компонента altasib:geobase.uf.detail. - Небольшие улучшения кода.
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.3%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:26 -  - TIME LoadModulesUpdates(request) 0.312 sec
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:26 - S - STEP
+2017-01-29 18:02:26 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:26 -  - loadFile
+2017-01-29 18:02:26 - U - RETURN
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:26 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702146/altasib.geobase/updater1.8.4.php'
+2017-01-29 18:02:26 -  - TIME UpdateStepModules 0.022 sec
+2017-01-29 18:02:26 - UPD_SUCCESS - Updated: altasib.geobase (1.8.4)<br>- Добавлена опция \"В течение какого времени помнить о совершенном перенаправлении\" в настройки модуля. - Скорректирована работа перенаправлений. - Исправлена некорректная работа скрипта js с дефолтными значениями свойств заказа типа \"Местоположение\".
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:26 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.4%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:26 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:27 -  - TIME LoadModulesUpdates(request) 0.301 sec
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:27 - S - STEP
+2017-01-29 18:02:27 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:27 -  - loadFile
+2017-01-29 18:02:27 - U - RETURN
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:27 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:27 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702147/altasib.geobase/updater1.8.5.php'
+2017-01-29 18:02:27 -  - TIME UpdateStepModules 0.005 sec
+2017-01-29 18:02:27 - UPD_SUCCESS - Updated: altasib.geobase (1.8.5)<br>- В компоненте altasib:geobase.your.city добавлен параметр \"Выполнять проверку на заполненность сессии и cookies модуля\" для предотвращения многократного показа окна пользователю, подтвердившему город. - Доработан скрипт js модуля, подставляющий местоположение на странице заказа. - Скорректированы js скрипты компонентов на предмет детекции локализации. - В опциях модуля сделан показ свойств типа местоположение без привязки к профилю.
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.5%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:28 -  - TIME LoadModulesUpdates(request) 0.296 sec
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:28 - S - STEP
+2017-01-29 18:02:28 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:28 -  - loadFile
+2017-01-29 18:02:28 - U - RETURN
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:28 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:28 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702148/altasib.geobase/updater1.8.6.php'
+2017-01-29 18:02:28 -  - TIME UpdateStepModules 0.003 sec
+2017-01-29 18:02:28 - UPD_SUCCESS - Updated: altasib.geobase (1.8.6)<br>- Исправлена работа скрипта js подстановки в заказе в браузерах Yandex.браузер и мобильных. - Небольшие исправления в коде модуля и шаблонов.
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.6%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:29 -  - TIME LoadModulesUpdates(request) 0.414 sec
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:29 - S - STEP
+2017-01-29 18:02:29 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:29 -  - loadFile
+2017-01-29 18:02:29 - U - RETURN
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:29 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702149/altasib.geobase/updater1.8.7.php'
+2017-01-29 18:02:29 -  - TIME UpdateStepModules 0.004 sec
+2017-01-29 18:02:29 - UPD_SUCCESS - Updated: altasib.geobase (1.8.7)<br>- Добавлен выбор подключения jQuery версии 2 в опциях модуля. - Добавлена поддержка регистронезависимой константы кодировки сайта. - Мелкие правки.
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.7%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:29 -  - TIME LoadModulesUpdates(request) 0.372 sec
+2017-01-29 18:02:29 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:29 - S - STEP
+2017-01-29 18:02:29 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:30 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:30 -  - loadFile
+2017-01-29 18:02:30 - U - RETURN
+2017-01-29 18:02:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:30 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702150/altasib.geobase/updater1.8.8.php'
+2017-01-29 18:02:30 -  - TIME UpdateStepModules 0.045 sec
+2017-01-29 18:02:30 - UPD_SUCCESS - Updated: altasib.geobase (1.8.8)<br>- Добавлено распространение cookies с данными выбранного города на все поддомены. - Добавлена возможность отключить подстановку местоположения для конкретного типа плательщика в опциях модуля (значение \"не выбрано\").
+2017-01-29 18:02:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.8%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:31 -  - TIME LoadModulesUpdates(request) 0.32 sec
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:31 - S - STEP
+2017-01-29 18:02:31 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:31 -  - loadFile
+2017-01-29 18:02:31 - U - RETURN
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:31 -  - TIME UnGzipArchive 0.011 sec
+2017-01-29 18:02:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702151/altasib.geobase/updater1.8.9.php'
+2017-01-29 18:02:31 -  - TIME UpdateStepModules 0.028 sec
+2017-01-29 18:02:31 - UPD_SUCCESS - Updated: altasib.geobase (1.8.9)<br>- Скорректировано взаимодействие опции «Добавлять автоматически определенный город к списку избранных городов» модуля с параметром «Выводить вместо правой надписи строки \"Выберите город\" город, определенный автоматически» компонента «Выбор города». - Исправлено закрытие popup-окна «Ваш город» по нажатию клавиши «Escape». - Исправлен php код модуля, вызывавший ошибку «Лишний вывод в файлах конфигурации». Изменено кеширование избранных городов. - Исправлены ошибки js скрипта в шаблоне компонента altasib:geobase.your.city. - Исправлены ошибки определения кодировки и конвертации строк и файлов.
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.9%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:32 -  - TIME LoadModulesUpdates(request) 0.377 sec
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:32 - S - STEP
+2017-01-29 18:02:32 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:32 -  - loadFile
+2017-01-29 18:02:32 - U - RETURN
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:32 -  - TIME UnGzipArchive 0.003 sec
+2017-01-29 18:02:32 -  - TIME UpdateStepModules 0.018 sec
+2017-01-29 18:02:32 - UPD_SUCCESS - Updated: altasib.geobase (1.8.10)<br>- Замена устаревших функций в php коде.
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.8.10%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:32 -  - TIME LoadModulesUpdates(request) 0.366 sec
+2017-01-29 18:02:32 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:32 - S - STEP
+2017-01-29 18:02:32 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:33 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:33 -  - loadFile
+2017-01-29 18:02:33 - U - RETURN
+2017-01-29 18:02:33 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:33 -  - TIME UnGzipArchive 0.004 sec
+2017-01-29 18:02:33 -  - TIME UpdateStepModules 0.026 sec
+2017-01-29 18:02:33 - UPD_SUCCESS - Updated: altasib.geobase (1.9.0)<br>- Добавлено событие OnBeforeResultCitySearch, выполняющееся перед выводом пунктом списка выбора городов в компоненте altasib:geobase.select.city, с возможностью изменения данных. - Исправлена фильтрация населенных пунктов по опции \"Показывать только города, крупные поселки и районные центры из населенных пунктов в поле поиска\". - Мелкие исправления.
+2017-01-29 18:02:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.9.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:34 -  - TIME LoadModulesUpdates(request) 0.359 sec
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:34 - S - STEP
+2017-01-29 18:02:34 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:34 -  - loadFile
+2017-01-29 18:02:34 - U - RETURN
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:34 -  - TIME UnGzipArchive 0.005 sec
+2017-01-29 18:02:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702154/altasib.geobase/updater1.9.1.php'
+2017-01-29 18:02:34 -  - TIME UpdateStepModules 0.004 sec
+2017-01-29 18:02:34 - UPD_SUCCESS - Updated: altasib.geobase (1.9.1)<br>- Добавлена поддержка подстановки местоположения в новом шаблоне обновленного компонента bitrix:sale.order.ajax. - Добавлено JavaScript-событие onBeforeYourCityOpen, позволяющее запретить вывод окна с подтверждением города, а вместо этого запустить как выбор городов вообще, так и любой другой обработчик. - В шаблоне компонента altasib:geobase.select.city скорректирован вывод надписи \"Выберите город\" при пустых данных. - Небольшие правки в скриптах модуля.
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.9.1%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:35 -  - TIME LoadModulesUpdates(request) 0.332 sec
+2017-01-29 18:02:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:35 - S - STEP
+2017-01-29 18:02:35 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:35 -  - loadFile
+2017-01-29 18:02:36 - U - RETURN
+2017-01-29 18:02:36 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:36 -  - TIME UnGzipArchive 0.023 sec
+2017-01-29 18:02:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702156/altasib.geobase/updater1.9.2.php'
+2017-01-29 18:02:36 -  - TIME UpdateStepModules 0.035 sec
+2017-01-29 18:02:36 - UPD_SUCCESS - Updated: altasib.geobase (1.9.2)<br>- Добавлен параметр «Подгружать окно \"Выбор города\" со списком городов ajax-запросом» в компоненте altasib:geobase.select.city. Содержимое окна может быть помещено в конец документа, перед закрытием тега body. - Добавлено кеширование результата поиска городов в поисковой строке. - Добавлены классы кодов для полей в шаблоне компонента altasib:geobase.uf.detail. - Исправлены ошибки пространства имен при использовании базы MaxMind. - Исправлена работа функции CAltasibGeoBaseSelected::GetCurrentCityFromSelected() в обработчике событий OnAfterAutoDetectCity. - Исправлены php предупреждения. - Небольшие правки в коде модуля.
+2017-01-29 18:02:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.9.2%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:37 -  - TIME LoadModulesUpdates(request) 0.411 sec
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:37 - S - STEP
+2017-01-29 18:02:37 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:37 -  - loadFile
+2017-01-29 18:02:37 - U - RETURN
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:37 -  - TIME UnGzipArchive 0.008 sec
+2017-01-29 18:02:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702157/altasib.geobase/updater1.10.0.php'
+2017-01-29 18:02:37 -  - TIME UpdateStepModules 0.049 sec
+2017-01-29 18:02:37 - UPD_SUCCESS - Updated: altasib.geobase (1.10.0)<br>- Добавлен показ ближайшего города для избранных городов, по координатам или региону. - Поддержка запросов на новом ядре при подстановке местоположения. - Добавлено исправление раскладки клавиатуры при поиске города в строке компонента Выбор города. - Добавлено сохранение ширины и долготы для данных из MaxMind базы. - Добавлена поддержка поиска местоположений Битрикс на ядре D7, включая поиск регионов, в функции CAltasibGeoBase::GetBXLocations(). - Добавлена возможность изменения сортировки у избранных городов. - В компоненте altasib:geobase.uf.detail добавлены новые поля вывода: округ и гео-координаты, задействован вывод ближайшего избранного города.
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.10.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:38 -  - TIME LoadModulesUpdates(request) 0.323 sec
+2017-01-29 18:02:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:38 - S - STEP
+2017-01-29 18:02:38 - LMU01 - LoadModulesUpdates-Step
+2017-01-29 18:02:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:38 -  - loadFile
+2017-01-29 18:02:38 - U - RETURN
+2017-01-29 18:02:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-01-29 18:02:38 -  - TIME UnGzipArchive 0.006 sec
+2017-01-29 18:02:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1485702158/altasib.geobase/updater1.11.0.php'
+2017-01-29 18:02:38 -  - TIME UpdateStepModules 0.024 sec
+2017-01-29 18:02:38 - UPD_SUCCESS - Updated: altasib.geobase (1.11.0)<br>- Добавлено распространение кук пользовательского выбора (ALTASIB_GEOBASE_CODE) на все домены системы. Данную возможность можно отключить соответствующей опцией в настройках модуля. - Добавлено js-прерывание для устаревших ajax-запросов при поиске города в окне выбора. - Исправлен показ ближайшего города для избранных городов по автоопределенным данным. - Исправлено назначение кук при заходе на сайт по IP адресу. - Скорректировано определение IP-адреса, исключаются локальные адреса. - Небольшие улучшения.
+2017-01-29 18:02:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-01-29 18:02:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=altasib.geobase&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:39 -  - TIME LoadModulesUpdates(request) 0.31 sec
+2017-01-29 18:02:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:02:39 - STEP - Finish - NOUPDATES
+2017-01-29 18:02:39 - STEP - Finish - NOUPDATES
+2017-01-29 18:02:52 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:02:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:02:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:02:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:02:52 -  - TIME GetUpdatesList(request) 0.315 sec
+2017-01-29 18:02:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:03:03 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:03:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:03:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:03:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:03:03 -  - TIME GetUpdatesList(request) 0.342 sec
+2017-01-29 18:03:03 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:06:51 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:06:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:06:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:06:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:06:52 -  - TIME GetUpdatesList(request) 0.323 sec
+2017-01-29 18:06:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:06:54 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:06:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:06:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:06:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:06:54 -  - TIME GetUpdatesList(request) 0.31 sec
+2017-01-29 18:06:54 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:07:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:07:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:07:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:07:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:07:42 -  - TIME GetUpdatesList(request) 0.305 sec
+2017-01-29 18:07:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 18:08:39 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 18:08:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 18:08:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 18:08:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 18:08:39 -  - TIME GetUpdatesList(request) 0.36 sec
+2017-01-29 18:08:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-01-29 19:01:36 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-01-29 19:01:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-01-29 19:01:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate%2Caltasib.geobase&SUPD_SRS=RU&SUPD_CMP=N
+2017-01-29 19:01:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-01-29 19:01:37 -  - TIME GetUpdatesList(request) 0.691 sec
+2017-01-29 19:01:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-02-06 12:12:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-02-06 12:12:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-02-06 12:12:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2017-02-06 12:12:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-02-06 12:12:42 -  - TIME GetUpdatesList(request) 0.488 sec
+2017-02-06 12:12:42 -  - exec CUpdateClientPartner::ParseServerData
+2017-02-06 12:12:45 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-02-06 12:12:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-02-06 12:12:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2017-02-06 12:12:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-02-06 12:12:45 -  - TIME GetUpdatesList(request) 0.339 sec
+2017-02-06 12:12:45 -  - exec CUpdateClientPartner::ParseServerData
+2017-02-06 12:18:40 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-02-06 12:18:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-02-06 12:18:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2017-02-06 12:18:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-02-06 12:18:41 -  - TIME GetUpdatesList(request) 0.401 sec
+2017-02-06 12:18:41 -  - exec CUpdateClientPartner::ParseServerData
+2017-02-06 12:18:46 -  - exec CUpdateClientPartner::ActivateCoupon
+2017-02-06 12:18:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-02-06 12:18:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&SUPD_SRS=RU&SUPD_CMP=N&coupon=MPX-K5VCZ3GAFS-R0ON4PGCOD&query_type=coupon
+2017-02-06 12:18:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-02-06 12:18:46 -  - TIME ActivateCoupon(request) 0.236 sec
+2017-02-06 12:18:46 -  - exec CUpdateClientPartner::ParseServerData
+2017-02-06 12:18:46 - UPD_SUCCESS - Coupon activated
+2017-02-06 12:18:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-02-06 12:18:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-02-06 12:18:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bx1.stupinamm.zmly1.spectrum.myjino.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=2&TYPENC=D&CLIENT_PHPVER=5.6.27&NGINX=Y&dbv=10.0.29&instm=main%2C16.5.4%2CY%3Bmobileapp%2C16.0.5%2CN%3Bconversion%2C15.5.6%2CN%3Bsocialservices%2C16.5.4%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bsecurity%2C16.0.3%2CN%3Bcatalog%2C16.5.3%2CN%3Bcompression%2C16.0.0%2CN%3Bsearch%2C16.0.0%2CN%3Bscale%2C16.0.0%2CN%3Bvote%2C15.5.0%2CN%3Bpull%2C16.5.1%2CN%3Bsale%2C16.5.0%2CN%3Bsubscribe%2C16.0.0%2CN%3Bblog%2C16.5.4%2CN%3Bbitrix.eshop%2C16.5.2%2CN%3Biblock%2C16.5.2%2CN%3Baltasib.geobase%2C1.11.0%2CY%3Bclouds%2C16.0.1%2CN%3Bcurrency%2C16.5.0%2CN%3Bforum%2C16.5.2%2CN%3Bphotogallery%2C16.0.1%2CN%3Beshopapp%2C15.0.0%2CN%3Babtest%2C16.0.0%2CN%3Btranslate%2C14.5.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bform%2C15.0.2%2CN%3Bsender%2C16.0.3%2CN%3Bperfmon%2C16.0.0%2CN%3Bseo%2C16.0.3%2CN%3Bstoreassist%2C16.0.1%2CN%3Bfileman%2C16.5.4%2CN&reqm=bitrix.eshop%2Caltasib.geobase%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2017-02-06 12:18:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-02-06 12:18:53 -  - TIME GetUpdatesList(request) 4.642 sec
+2017-02-06 12:18:53 -  - exec CUpdateClientPartner::ParseServerData

@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Акции", 
+		"/discount/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рецепты", 
+		"/recipes/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Список покупок", 
+		"/buy-list/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дисконтные карты", 
+		"/discounts_cards/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

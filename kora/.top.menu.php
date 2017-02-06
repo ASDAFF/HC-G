@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Акции", 
+		"/kora/discount/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Каталог", 
+		"/kora/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рецепты", 
+		"/recipes/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Список покупок", 
+		"/buy-list/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дисконтные карты", 
+		"/kora/discounts_cards/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/kora/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

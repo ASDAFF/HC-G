@@ -1,0 +1,40 @@
+div.search-tags-chain a {margin:2px;}
+div.search-tags-chain a.search-tags-link {color:#333333; font-size:90%; text-decoration:none;color:#535353;}
+div.search-tags-cloud a {white-space: normal;}
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+<<<<<<< HEAD
+input[name="q"]{ 
+=======
+input[name="q"]{
+>>>>>>> a050030007bbce2a0ce4129c0ce1e68563f65de3
+        display: inline-block;
+}
+.search-page a{
+     text-decoration: none;
+}
+.search-page a:hover{
+    color: #68170f!important;
+}
+.search_link:hover{
+    color: #68170f!important;
+}
+.search-page .search_link{
+        font-size: 15px;
+    color: #000;
+    font-family: 'Rubik';
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 2px;
+    position: relative;
+}
+.search-page {
+    padding-bottom: 50px;
+}
