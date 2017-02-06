@@ -609,6 +609,7 @@ if($page!="/"&&$page!="/kora/"&&$page!="/planeta-holiday/"&&$page!="/holiday-sup
         <script src="<?=$APPLICATION->GetTemplatePath("js/cookies.js")?>"></script>
         <script src="<?=$APPLICATION->GetTemplatePath("js/scrollbar.js")?>"></script>
         <script src="<?=$APPLICATION->GetTemplatePath("js/art_select.js")?>"></script>
+        <script src="<?=$APPLICATION->GetTemplatePath("js/lodash.js")?>"></script>
 		<script src="<?=$APPLICATION->GetTemplatePath("js/main.js")?>"></script>
         <script src="<?=$APPLICATION->GetTemplatePath("js/cookie_load.js")?>"></script>
  	    
