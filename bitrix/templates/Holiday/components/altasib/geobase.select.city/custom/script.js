@@ -1,5 +1,5 @@
 if(typeof altasib_geobase=='undefined')var altasib_geobase={};
-
+console.log('------------------------------');
 altasib_geobase.letters='';
 altasib_geobase.timer='0';
 altasib_geobase.request_numb=0;
@@ -179,189 +179,6 @@ altasib_geobase.sc_onclk=function(cityid,ctryCode,regionCode){
 			altasib_geobase.short_name=altasib_geobase.sc_trim($('#'+list_+id).html());
 			altasib_geobase.full_name=altasib_geobase.sc_trim($('#'+list_+id).attr('title'));
 		}else{
-
-			cityName=cityid;if(typeof altasib_geobase=='undefined')var altasib_geobase={};
-
-altasib_geobase.letters='';
-altasib_geobase.timer='0';
-altasib_geobase.request_numb=0;
-altasib_geobase.handlers_set=false;
-
-if(altasib_geobase.is_mobile)
-	altasib_geobase.search_en=$('input').is('[name=altasib_geobase_mb_search]');
-else
-	altasib_geobase.search_en=$('input').is('[name=altasib_geobase_search]');
-altasib_geobase.select_city=true;
-
-if(typeof BX!='undefined'){
-	BX.addCustomEvent(window,'onFrameDataReceived',function(json){altasib_geobase.sc_init_handlers();});
-}
-else if(typeof top.BX!='undefined'){
-	top.BX.addCustomEvent(window,'onFrameDataReceived',function(json){altasib_geobase.sc_init_handlers();});
-}
-
-$(document).ready(function(){
-	$(this).keydown(function(e){
-		if(e.keyCode===27&&$('div#altasib_geobase_win').is(':visible')){
-			if(altasib_geobase.is_mobile)altasib_geobase.sc_mb_cls();
-			else altasib_geobase.sc_cls();
-		}
-	});
-	altasib_geobase.sc_parse_city();
-
-	window.setTimeout('altasib_geobase.sc_init_handlers()',350);
-});
-
-altasib_geobase.sc_init_handlers=function(){
-	if(altasib_geobase.handlers_set)return false;
-
-	if(altasib_geobase.is_mobile){
-		var mb_close=$('#altasib_geobase_mb_close a');
-		if(mb_close.length>0)
-			altasib_geobase.handlers_set=true;
-
-		mb_close.click(function(event){
-			event.preventDefault();altasib_geobase.sc_mb_cls();
-		});
-
-		$('.altasib_geobase_mb_disabled#altasib_geobase_mb_btn').click(function(event){
-			event.preventDefault();altasib_geobase.sc_onclk();
-		});
-
-		$('.altasib_geobase_mb_find #altasib_geobase_mb_info').click(function(event){
-			event.preventDefault();altasib_geobase.sc_add_city(event);
-		})
-		.keyup(function(event){altasib_geobase.sc_selKey(event);})
-		.dblclick(function(event){altasib_geobase.sc_onclk();});
-
-		$('.altasib_geobase_mb_find #altasib_geobase_mb_search').click(function(event){
-			event.preventDefault();altasib_geobase.clear_field();
-		})
-		.focus(function(event){altasib_geobase.city_field_focus();})
-		.keyup(function(event){altasib_geobase.sc_inpKey(event);})
-		.keydown(function(event){altasib_geobase.sc_inpKeyDwn(event);})
-		.blur(function(event){altasib_geobase.city_field_blur();});
-
-		$('a#all_cities_button_mobile').click(function(event){
-			event.preventDefault();altasib_geobase.all_cities();
-		});
-
-		$('.altasib_geobase_mb_link_city').click(function(event){
-			if($('div#altasib_geobase_mb_win').length>0)
-				altasib_geobase.sc_open();
-			else
-				altasib_geobase.sc_load_open();
-		});
-
-	}else{
-
-		var dp_cities=$('.altasib_geobase_cities ul li a');
-		if(dp_cities.length>0)
-			altasib_geobase.handlers_set=true;
-
-		dp_cities.click(function(event){event.preventDefault();});
-
-		$('#altasib_geobase_close a').click(function(event){
-			event.preventDefault();altasib_geobase.sc_cls();
-		});
-
-		$('.altasib_geobase_link_city').click(function(event){
-			if($('div#altasib_geobase_win').length>0)
-				altasib_geobase.sc_open();
-			else
-				altasib_geobase.sc_load_open();
-		});
-
-		$('.altasib_geobase_disabled#altasib_geobase_btn').click(function(event){
-			event.preventDefault();altasib_geobase.sc_onclk();
-		});
-
-		$('.altasib_geobase_find #altasib_geobase_info').click(function(event){
-			event.preventDefault();altasib_geobase.sc_add_city(event);
-		})
-		.keyup(function(event){altasib_geobase.sc_selKey(event);})
-		.dblclick(function(event){altasib_geobase.sc_onclk();});
-
-		$('.altasib_geobase_find #altasib_geobase_search')
-			.keyup(function(event){altasib_geobase.sc_inpKey(event);})
-			.keydown(function(event){altasib_geobase.sc_inpKeyDwn(event);});
-	}
-	return true;
-}
-
-altasib_geobase.sc_init_vars=function(){
-	if(altasib_geobase.is_mobile){
-		altasib_geobase.search_en=$('input').is('[name=altasib_geobase_mb_search]');
-		if(altasib_geobase.search_en){
-			var search=$('input[name=altasib_geobase_mb_search]');
-		}
-	}else{
-		altasib_geobase.search_en=$('input').is('[name=altasib_geobase_search]');
-
-		if(altasib_geobase.search_en){
-			var search=$('input[name=altasib_geobase_search]');
-		}
-		altasib_geobase.height=$('div#altasib_geobase_win').css('height');
-	}
-}
-
-altasib_geobase.sc_repeat=function(){
-	if(altasib_geobase.is_mobile){
-		var list='#altasib_geobase_mb_list_';
-		var actClass='altasib_geobase_mb_act';
-		if((actEl=$('.altasib_geobase_mb_cities .altasib_geobase_mb_fst .'+actClass)).length==0)
-			actEl=$('.altasib_geobase_mb_cities .altasib_geobase_mb_list_ie .'+actClass);
-	}else{
-		var list='#altasib_geobase_list_';
-		var actClass='altasib_geobase_act';
-		if((actEl=$('.altasib_geobase_cities .altasib_geobase_fst .'+actClass)).length==0)
-			actEl=$('.altasib_geobase_cities .altasib_geobase_list_ie .'+actClass);
-	}
-	var flag=true;
-	if(typeof altasib_geobase.codes!=='undefined'){
-		for(var i=0;i<altasib_geobase.codes.length;i++){
-			if(actEl.children().is(list+altasib_geobase.codes[i])){
-				flag=false;break;
-			}
-		}
-		if(flag)actEl.remove();
-		else actEl.removeClass(actClass);
-	}
-}
-
-//It is my city
-altasib_geobase.sc_onclk=function(cityid,ctryCode,regionCode){
-	var id='',cityName='';
-	if(typeof ctryCode=='undefined'||ctryCode=='')
-		ctryCode=altasib_geobase.COUNTRY_CODE;
-
-	if(altasib_geobase.is_mobile){
-		var btn=$('#altasib_geobase_mb_btn'),
-			dis='altasib_geobase_mb_disabled',
-			list_='altasib_geobase_mb_list_',
-			search=$('input#altasib_geobase_mb_search'),
-			cities='.altasib_geobase_mb_cities',
-			fst='.altasib_geobase_mb_fst',
-			list_ie='.altasib_geobase_mb_list_ie';
-	}else{
-		var btn=$('#altasib_geobase_btn'),
-			dis='altasib_geobase_disabled',
-			list_='altasib_geobase_list_',
-			search=$('input#altasib_geobase_search'),
-			cities='.altasib_geobase_cities',
-			fst='.altasib_geobase_fst',
-			list_ie='.altasib_geobase_list_ie';
-	}
-
-	if(typeof cityid=='undefined'&&btn.hasClass(dis)&&cityid!='Enter')return false;
-
-	if(typeof cityid!=='undefined'&&cityid!='Enter'&&cityid!=''){
-		if(!isNaN(cityid)){
-			id=cityid;
-			altasib_geobase.short_name=altasib_geobase.sc_trim($('#'+list_+id).html());
-			altasib_geobase.full_name=altasib_geobase.sc_trim($('#'+list_+id).attr('title'));
-		}else{
-
 			cityName=cityid;
 			altasib_geobase.short_name=$('#'+list_+cityName).html();
 			altasib_geobase.full_name=$('#'+list_+cityName).attr('title');
@@ -991,8 +808,188 @@ altasib_geobase.sc_type={
 	isString:function(item){
 		return item===''?true:(item?(typeof(item)=='string'||item instanceof String):false);
 	}
+}if(typeof altasib_geobase=='undefined')var altasib_geobase={};
 
+altasib_geobase.letters='';
+altasib_geobase.timer='0';
+altasib_geobase.request_numb=0;
+altasib_geobase.handlers_set=false;
+
+if(altasib_geobase.is_mobile)
+	altasib_geobase.search_en=$('input').is('[name=altasib_geobase_mb_search]');
+else
+	altasib_geobase.search_en=$('input').is('[name=altasib_geobase_search]');
+altasib_geobase.select_city=true;
+
+if(typeof BX!='undefined'){
+	BX.addCustomEvent(window,'onFrameDataReceived',function(json){altasib_geobase.sc_init_handlers();});
 }
+else if(typeof top.BX!='undefined'){
+	top.BX.addCustomEvent(window,'onFrameDataReceived',function(json){altasib_geobase.sc_init_handlers();});
+}
+
+$(document).ready(function(){
+	$(this).keydown(function(e){
+		if(e.keyCode===27&&$('div#altasib_geobase_win').is(':visible')){
+			if(altasib_geobase.is_mobile)altasib_geobase.sc_mb_cls();
+			else altasib_geobase.sc_cls();
+		}
+	});
+	altasib_geobase.sc_parse_city();
+
+	window.setTimeout('altasib_geobase.sc_init_handlers()',350);
+});
+
+altasib_geobase.sc_init_handlers=function(){
+	if(altasib_geobase.handlers_set)return false;
+
+	if(altasib_geobase.is_mobile){
+		var mb_close=$('#altasib_geobase_mb_close a');
+		if(mb_close.length>0)
+			altasib_geobase.handlers_set=true;
+
+		mb_close.click(function(event){
+			event.preventDefault();altasib_geobase.sc_mb_cls();
+		});
+
+		$('.altasib_geobase_mb_disabled#altasib_geobase_mb_btn').click(function(event){
+			event.preventDefault();altasib_geobase.sc_onclk();
+		});
+
+		$('.altasib_geobase_mb_find #altasib_geobase_mb_info').click(function(event){
+			event.preventDefault();altasib_geobase.sc_add_city(event);
+		})
+		.keyup(function(event){altasib_geobase.sc_selKey(event);})
+		.dblclick(function(event){altasib_geobase.sc_onclk();});
+
+		$('.altasib_geobase_mb_find #altasib_geobase_mb_search').click(function(event){
+			event.preventDefault();altasib_geobase.clear_field();
+		})
+		.focus(function(event){altasib_geobase.city_field_focus();})
+		.keyup(function(event){altasib_geobase.sc_inpKey(event);})
+		.keydown(function(event){altasib_geobase.sc_inpKeyDwn(event);})
+		.blur(function(event){altasib_geobase.city_field_blur();});
+
+		$('a#all_cities_button_mobile').click(function(event){
+			event.preventDefault();altasib_geobase.all_cities();
+		});
+
+		$('.altasib_geobase_mb_link_city').click(function(event){
+			if($('div#altasib_geobase_mb_win').length>0)
+				altasib_geobase.sc_open();
+			else
+				altasib_geobase.sc_load_open();
+		});
+
+	}else{
+
+		var dp_cities=$('.altasib_geobase_cities ul li a');
+		if(dp_cities.length>0)
+			altasib_geobase.handlers_set=true;
+
+		dp_cities.click(function(event){event.preventDefault();});
+
+		$('#altasib_geobase_close a').click(function(event){
+			event.preventDefault();altasib_geobase.sc_cls();
+		});
+
+		$('.altasib_geobase_link_city').click(function(event){
+			if($('div#altasib_geobase_win').length>0)
+				altasib_geobase.sc_open();
+			else
+				altasib_geobase.sc_load_open();
+		});
+
+		$('.altasib_geobase_disabled#altasib_geobase_btn').click(function(event){
+			event.preventDefault();altasib_geobase.sc_onclk();
+		});
+
+		$('.altasib_geobase_find #altasib_geobase_info').click(function(event){
+			event.preventDefault();altasib_geobase.sc_add_city(event);
+		})
+		.keyup(function(event){altasib_geobase.sc_selKey(event);})
+		.dblclick(function(event){altasib_geobase.sc_onclk();});
+
+		$('.altasib_geobase_find #altasib_geobase_search')
+			.keyup(function(event){altasib_geobase.sc_inpKey(event);})
+			.keydown(function(event){altasib_geobase.sc_inpKeyDwn(event);});
+	}
+	return true;
+}
+
+altasib_geobase.sc_init_vars=function(){
+	if(altasib_geobase.is_mobile){
+		altasib_geobase.search_en=$('input').is('[name=altasib_geobase_mb_search]');
+		if(altasib_geobase.search_en){
+			var search=$('input[name=altasib_geobase_mb_search]');
+		}
+	}else{
+		altasib_geobase.search_en=$('input').is('[name=altasib_geobase_search]');
+
+		if(altasib_geobase.search_en){
+			var search=$('input[name=altasib_geobase_search]');
+		}
+		altasib_geobase.height=$('div#altasib_geobase_win').css('height');
+	}
+}
+
+altasib_geobase.sc_repeat=function(){
+	if(altasib_geobase.is_mobile){
+		var list='#altasib_geobase_mb_list_';
+		var actClass='altasib_geobase_mb_act';
+		if((actEl=$('.altasib_geobase_mb_cities .altasib_geobase_mb_fst .'+actClass)).length==0)
+			actEl=$('.altasib_geobase_mb_cities .altasib_geobase_mb_list_ie .'+actClass);
+	}else{
+		var list='#altasib_geobase_list_';
+		var actClass='altasib_geobase_act';
+		if((actEl=$('.altasib_geobase_cities .altasib_geobase_fst .'+actClass)).length==0)
+			actEl=$('.altasib_geobase_cities .altasib_geobase_list_ie .'+actClass);
+	}
+	var flag=true;
+	if(typeof altasib_geobase.codes!=='undefined'){
+		for(var i=0;i<altasib_geobase.codes.length;i++){
+			if(actEl.children().is(list+altasib_geobase.codes[i])){
+				flag=false;break;
+			}
+		}
+		if(flag)actEl.remove();
+		else actEl.removeClass(actClass);
+	}
+}
+
+//It is my city
+altasib_geobase.sc_onclk=function(cityid,ctryCode,regionCode){
+	var id='',cityName='';
+	if(typeof ctryCode=='undefined'||ctryCode=='')
+		ctryCode=altasib_geobase.COUNTRY_CODE;
+
+	if(altasib_geobase.is_mobile){
+		var btn=$('#altasib_geobase_mb_btn'),
+			dis='altasib_geobase_mb_disabled',
+			list_='altasib_geobase_mb_list_',
+			search=$('input#altasib_geobase_mb_search'),
+			cities='.altasib_geobase_mb_cities',
+			fst='.altasib_geobase_mb_fst',
+			list_ie='.altasib_geobase_mb_list_ie';
+	}else{
+		var btn=$('#altasib_geobase_btn'),
+			dis='altasib_geobase_disabled',
+			list_='altasib_geobase_list_',
+			search=$('input#altasib_geobase_search'),
+			cities='.altasib_geobase_cities',
+			fst='.altasib_geobase_fst',
+			list_ie='.altasib_geobase_list_ie';
+	}
+
+	if(typeof cityid=='undefined'&&btn.hasClass(dis)&&cityid!='Enter')return false;
+
+	if(typeof cityid!=='undefined'&&cityid!='Enter'&&cityid!=''){
+		if(!isNaN(cityid)){
+			id=cityid;
+			altasib_geobase.short_name=altasib_geobase.sc_trim($('#'+list_+id).html());
+			altasib_geobase.full_name=altasib_geobase.sc_trim($('#'+list_+id).attr('title'));
+		}else{
+			cityName=cityid;
 			altasib_geobase.short_name=$('#'+list_+cityName).html();
 			altasib_geobase.full_name=$('#'+list_+cityName).attr('title');
 		}
@@ -1621,5 +1618,5 @@ altasib_geobase.sc_type={
 	isString:function(item){
 		return item===''?true:(item?(typeof(item)=='string'||item instanceof String):false);
 	}
-
 }
+------------
