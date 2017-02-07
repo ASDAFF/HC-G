@@ -468,7 +468,7 @@
 								});
 								
 								google.maps.event.addListener(infowindow,'closeclick',function(){
-									
+									console.log('close');
 									marker.setVisible(true);
 									map.setOptions({draggable: true});
 									marker.set('label', 
@@ -549,6 +549,7 @@
 									App.initSVG();
 								});
 								google.maps.event.addListener(infowindow,'closeclick',function(){
+								    console.log('close2');
 									map.setOptions({draggable: true});
 									marker.setVisible(true);
 									marker.set('label', 
@@ -627,6 +628,7 @@
 									App.initSVG();
 								});
 								google.maps.event.addListener(infowindow,'closeclick',function(){
+								    console.log('close3');
 									marker.setVisible(true);
 									map.setOptions({draggable: true});
 									marker.set('label', 
@@ -659,6 +661,8 @@
 					e.preventDefault();
 					$(this).parent().toggleClass('opened')
 				})
+                
+                
 				function init (filters) {
 						$('#map_filter *, ul.stores_list li.marker').remove();
 						$('.stores_container .loading').show();
@@ -673,6 +677,7 @@
 							center: {lat: map_lat, lng: map_lng},
 							styles: [{"featureType":"landscape","stylers":[{"hue":"#FFBB00"},{"saturation":43.400000000000006},{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}]
 						});
+                        window.w = map;
 						if($('#search_city').val()){
 							$.ajax({
 								url: 'https://maps.googleapis.com/maps/api/geocode/json?address='+$('#search_city').val()+'&key=AIzaSyC6vGWo8E_DBTS4D8CXkZCdyk068s8nUDU',
@@ -713,7 +718,25 @@
 							map.setOptions({draggable: true});
 							map.setCenter({lat:t.data('merkerx'), lng:t.data('merkery'), });
 							google.maps.event.trigger(markers[id], 'click');
-						}) */
+						}) 
+                        
+                        $('.o-openProject').click(function() {
+            
+          var contentIndex, parent, that;
+          that = $(this);
+          parent = that.parent();
+          if (parent.attr('data-opened') === 'y') {
+            return parent.attr('data-opened', '');
+          } else {
+            parent.attr('data-opened', 'y');
+            contentIndex = parent.index();
+            return w.map.setCenter({
+              lat: mapObjects[contentIndex]['coordinates'][0],
+              lng: mapObjects[contentIndex]['coordinates'][1] - 0.1
+            });
+          }
+        });
+                        */
 						function showVisibleMarkers() {
 						 console.log("showVisibleMarkers");
 							var bounds = map.getBounds(),
@@ -722,11 +745,13 @@
 							$('.stores_list li').addClass('hide');
 							for (var i = 0; i < markers.length; i++) {
 								var marker = markers[i];
-								 
-								if(bounds.contains(marker.getPosition())===true) {
+								 //console.log(marker);
+								
+                                if(bounds.contains(marker.getPosition())===true) {
 									$('.stores_list li.marker_id_'+marker.get("id")).removeClass('hide');
 									$('.stores_list li:not(.hide):odd').css('background', '#198c11')
 								}
+                                
 								if(markers.length-1==i){
 									$('.stores_container .loading').hide();
 								}
@@ -736,13 +761,24 @@
 							} else {
 								$('.stores_list li.message').addClass('hide')
 							}
-					 
+					 //infowindow.closeclick();
 							
 						}
 						google.maps.event.addListener(map, 'idle', function() {
 							showVisibleMarkers();
 						});
 						//map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+                        function closeAnotherInfowindow(param1){
+
+                            if(window.a !== undefined){
+                                window.a.close();
+                                window.a = param1;
+                           }
+                            window.a = param1;
+                            
+                        }
+                        
+                       
 						$.getJSON( "/bitrix/templates/Holiday/js/map_base.json", function( data ) {
 							var $stotes_list_html='';
 							$i=-1;
@@ -764,6 +800,7 @@
 								}
 								//console.log(data.length);
 								//console.log($.inArray('icon_map_cockie', val['TAGS']))
+                                
 								if(filtered){
 									$i++;
 									$.each(val['TAGS'], function(index, val) {
@@ -796,13 +833,15 @@
 										markers.push(marker);
           /*на карте на странице stores*/
 										var content='<div class="map_container"><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_point.svg" alt="" class="svg"></div><div class="text">'+adress+'</div></div><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_phone.svg" alt="" class="svg"></div><div class="text">'+val['PHONE']+'</div></div><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_map_clock.svg" alt="" class="svg"></div><div class="text">'+opentime+'-'+closetime+'</div></div><div class="icon_set">'+tags+'</div><a class="more_link" href="/stores/'+link_id+'/">Подробнее</a></div>';
-										var infowindow = new google.maps.InfoWindow({
+										
+                                        var infowindow = new google.maps.InfoWindow({
 											content: content,
 											maxWidth:241,
 											pixelOffset: new google.maps.Size(-240,198)
 										});
-										$stotes_list_html+='<li class="marker marker_id_'+$i+'"><div class="items_set"><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_point.svg" alt="" class="svg"></div><div class="text">'+val['ADDRESS']+'</div></div><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_phone.svg" alt="" class="svg"></div><div class="text">'+val['PHONE']+'</div></div><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_map_clock.svg" alt="" class="svg"></div><div class="text">'+val['OPEN_TIME']+' - '+val['CLOSE_TIME']+'</div></div></div><a class="more_link" data-markerid="'+$i+'" data-merkerx="'+parseFloat(cordx)+'" data-merkery="'+parseFloat(cordy)+'" href="/stores/'+link_id+'/">Подробнее</a><div class="icon_set">'+tags+'</div></li>';
+										$stotes_list_html+='<li onclick="mySetCenter('+parseFloat(val['GEO_LATITUDE'])+','+parseFloat(val['GEO_LONGITUDE'])+');" class="marker marker_id_'+$i+'"><div class="items_set"><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_point.svg" alt="" class="svg"></div><div class="text">'+val['ADDRESS']+'</div></div><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_phone.svg" alt="" class="svg"></div><div class="text">'+val['PHONE']+'</div></div><div class="item"><div class="icon"><img src="/bitrix/templates/Holiday/img/icon_map_clock.svg" alt="" class="svg"></div><div class="text">'+val['OPEN_TIME']+' - '+val['CLOSE_TIME']+'</div></div></div><a class="more_link" data-markerid="'+$i+'" data-merkerx="'+parseFloat(cordx)+'" data-merkery="'+parseFloat(cordy)+'" href="/stores/'+link_id+'/">Подробнее</a><div class="icon_set">'+tags+'</div></li>';
 										marker.addListener('click', function() {
+										  
 											infowindow.open(map, marker);
 											map.setCenter(marker.position);
 											map.setZoom(12);
@@ -818,9 +857,13 @@
 												}
 											)
 											App.initSVG();
+                                            closeAnotherInfowindow(infowindow);
+                                            
+                                            
 										});
 										
 										google.maps.event.addListener(infowindow,'closeclick',function(){
+										  //console.log(infowindow);
 											$('.stores_list li').removeClass('active');
 											map.setOptions({draggable: true});
 										 	map.setZoom(12);
@@ -850,8 +893,21 @@
 							$('.get_stores .stores_list').scrollbar();
 							
 							App.initSVG();
+                            
 						});
-
+                        function getMarkersData(){
+                            items = [];
+                            $.getJSON( "/bitrix/templates/Holiday/js/map_base.json", function( data ) {
+                                 $.each( data, function( key, val ) {
+                                    items.push({key : val});
+                                    
+                                 })
+                            });
+                            return items;
+                        }
+                        abc = getMarkersData();
+                        console.log(abc);
+                        
 				}
 
 				$('.desctop_filter .item_filter').on('click', function(e){
@@ -904,6 +960,7 @@
 					 
 					init(filter_checked);
 				}
+                
 			 
 				init();
 			}

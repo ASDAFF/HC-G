@@ -2,7 +2,20 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Магазины, Адреса");
 ?>
+<script>
 
+    function mySetCenter( param1, param2){
+        console.log(param1+' , '+param2);
+        
+        window.w.setCenter({lat: param1, lng: param2});
+        
+        window.w.set('zoom', 18);	
+
+        
+    }      
+                                                 
+
+</script>
 </div> <!-- close-container -->
 <section class="get_stores">
 			<div class="container-fluid">

@@ -26,11 +26,5 @@ $APPLICATION->SetTitle("404 Not Found");
 				<a href="/" class="button">Перейти на главную</a>
 			</div>
 		</section>
-        <section class="map">
-			<div class="container">
-				<h2>Наши магазины</h2>
-			</div>
-			<div id="map"></div>
-		</section>
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
